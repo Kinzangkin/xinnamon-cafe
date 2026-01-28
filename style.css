@@ -1,0 +1,30 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-dark-charcoal font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-cinnamon-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-cinnamon-600 text-white px-6 py-3 rounded-full hover:bg-cinnamon-700 transition-colors duration-300 font-medium tracking-wide shadow-md hover:shadow-lg inline-block text-center;
+  }
+  .btn-outline {
+    @apply border-2 border-cinnamon-600 text-cinnamon-600 px-6 py-3 rounded-full hover:bg-cinnamon-600 hover:text-white transition-colors duration-300 font-medium tracking-wide inline-block text-center;
+  }
+  .section-padding {
+    @apply py-16 md:py-24 px-4 md:px-8;
+  }
+}

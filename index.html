@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XINNAMON - Tempat Makan & Kumpul Keluarga di Manado</title>
+    <meta name="description"
+        content="Nikmati aneka menu makanan lezat dan suasana nyaman di XINNAMON, Mapanget, Manado. Tempat makan terbaik untuk keluarga dengan pelayanan ramah.">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg-cinnamon-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-cream/95 backdrop-blur-sm shadow-sm fixed w-full z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="flex items-center">
+                        <span class="font-serif text-2xl font-bold text-cinnamon-800 tracking-wider">XINNAMON</span>
+                        <span class="text-cinnamon-600 ml-1 font-serif italic text-lg">Cafe</span>
+                    </a>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:space-x-8 md:items-center">
+                    <a href="#home"
+                        class="text-gray-700 px-3 py-2 rounded-md text-sm font-medium hover:text-cinnamon-600 transition-colors">Beranda</a>
+                    <a href="#about"
+                        class="text-gray-700 px-3 py-2 rounded-md text-sm font-medium hover:text-cinnamon-600 transition-colors">Tentang
+                        Kami</a>
+                    <a href="#menu"
+                        class="text-gray-700 px-3 py-2 rounded-md text-sm font-medium hover:text-cinnamon-600 transition-colors">Menu</a>
+                    <a href="#location"
+                        class="text-gray-700 px-3 py-2 rounded-md text-sm font-medium hover:text-cinnamon-600 transition-colors">Lokasi</a>
+                    <a href="#testimonials"
+                        class="text-gray-700 px-3 py-2 rounded-md text-sm font-medium hover:text-cinnamon-600 transition-colors">Testimoni</a>
+                    <a href="#contact"
+                        class="text-gray-700 px-3 py-2 rounded-md text-sm font-medium hover:text-cinnamon-600 transition-colors">Hubungi</a>
+                    <a href="#menu"
+                        class="bg-cinnamon-600 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-cinnamon-700 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">Pesan
+                        Sekarang</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button id="mobile-menu-btn" type="button"
+                        class="bg-cream inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cinnamon-500">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="hidden md:hidden bg-cream border-t border-gray-200" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 shadow-lg">
+                <a href="#home"
+                    class="text-gray-800 block px-3 py-2 rounded-md text-base font-medium hover:text-cinnamon-600 hover:bg-cinnamon-50">Beranda</a>
+                <a href="#about"
+                    class="text-gray-800 block px-3 py-2 rounded-md text-base font-medium hover:text-cinnamon-600 hover:bg-cinnamon-50">Tentang
+                    Kami</a>
+                <a href="#menu"
+                    class="text-gray-800 block px-3 py-2 rounded-md text-base font-medium hover:text-cinnamon-600 hover:bg-cinnamon-50">Menu</a>
+                <a href="#location"
+                    class="text-gray-800 block px-3 py-2 rounded-md text-base font-medium hover:text-cinnamon-600 hover:bg-cinnamon-50">Lokasi</a>
+                <a href="#testimonials"
+                    class="text-gray-800 block px-3 py-2 rounded-md text-base font-medium hover:text-cinnamon-600 hover:bg-cinnamon-50">Testimoni</a>
+                <a href="#contact"
+                    class="text-gray-800 block px-3 py-2 rounded-md text-base font-medium hover:text-cinnamon-600 hover:bg-cinnamon-50">Hubungi</a>
+                <div class="mt-4 px-3">
+                    <a href="#menu"
+                        class="block w-full text-center bg-cinnamon-600 text-white px-5 py-3 rounded-full text-base font-medium hover:bg-cinnamon-700 shadow-md">Pesan
+                        Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-cinnamon-100 pt-20">
+        <div class="max-w-7xl mx-auto">
+            <div
+                class="relative z-10 pb-8 bg-cinnamon-100 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 min-h-[600px] flex items-center">
+                <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                    <div class="sm:text-center lg:text-left">
+                        <h1 class="text-4xl tracking-tight font-serif font-bold text-gray-900 sm:text-5xl md:text-6xl">
+                            <span class="block xl:inline">Temukan Cita Rasa &</span>
+                            <span class="block text-cinnamon-800 xl:inline">Kehangatan di XINNAMON</span>
+                        </h1>
+                        <p
+                            class="mt-3 text-base text-gray-700 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                            Nikmati aneka hidangan lezat mulai dari Nasi Ayam, Ikan, hingga camilan favorit.
+                            Tempat makan nyaman untuk keluarga dan kerabat di Manado.
+                        </p>
+                        <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start gap-4">
+                            <div class="rounded-full shadow">
+                                <a href="#menu"
+                                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-cinnamon-600 hover:bg-cinnamon-700 md:py-4 md:text-lg md:px-10 transition-all">
+                                    Lihat Menu
+                                </a>
+                            </div>
+                            <div class="mt-3 sm:mt-0">
+                                <a href="#location"
+                                    class="w-full flex items-center justify-center px-8 py-3 border-2 border-cinnamon-600 text-base font-medium rounded-full text-cinnamon-700 bg-transparent hover:bg-cinnamon-600 hover:text-white md:py-4 md:text-lg md:px-10 transition-all">
+                                    Kunjungi Kami
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+            <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/asset/profile.jpg"
+                alt="Interior XINNAMON Cafe">
+            <div
+                class="absolute inset-0 bg-gradient-to-r from-cinnamon-100 to-transparent lg:via-cinnamon-100/20 lg:to-transparent opacity-90 lg:opacity-100">
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-base text-cinnamon-700 font-bold tracking-wide uppercase">Kenapa Memilih Kami?</h2>
+                <p class="mt-2 text-3xl leading-8 font-serif font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Pengalaman Bersantap Terbaik
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
+                    <div
+                        class="relative p-6 bg-cinnamon-50 rounded-2xl hover:shadow-lg transition-shadow border border-cinnamon-100">
+                        <dt>
+                            <div
+                                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-cinnamon-600 text-white shadow-md">
+                                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                                </svg>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-bold text-gray-900">Rating 4.5/5</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-600">
+                            Dipercaya oleh ratusan pelanggan dengan reputasi sangat baik.
+                        </dd>
+                    </div>
+
+                    <div
+                        class="relative p-6 bg-cinnamon-50 rounded-2xl hover:shadow-lg transition-shadow border border-cinnamon-100">
+                        <dt>
+                            <div
+                                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-cinnamon-600 text-white shadow-md">
+                                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                </svg>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-bold text-gray-900">Tempat Nyaman</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-600">
+                            Interior cozy untuk kerja (WFC) maupun bersantai.
+                        </dd>
+                    </div>
+
+                    <div
+                        class="relative p-6 bg-cinnamon-50 rounded-2xl hover:shadow-lg transition-shadow border border-cinnamon-100">
+                        <dt>
+                            <div
+                                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-cinnamon-600 text-white shadow-md">
+                                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-bold text-gray-900">Kualitas Premium</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-600">
+                            Bahan-bahan segar pilihan untuk setiap masakan yang kami sajikan.
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-cinnamon-50 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                <div>
+                    <h2 class="text-base text-cinnamon-700 font-bold tracking-wide uppercase mb-2">Tentang Kami</h2>
+                    <h3 class="text-3xl font-serif font-bold text-gray-900 mb-6">Lebih dari Sekedar Tempat Makan</h3>
+                    <p class="text-gray-700 mb-4 leading-relaxed text-lg">
+                        Kami percaya bahwa makanan adalah pemersatu. Di XINNAMON, setiap
+                        hidangan dimasak dengan hati untuk menghadirkan kehangatan rumah bagi setiap
+                        pelanggan.
+                    </p>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-lg">
+                        Nilai utama kami adalah Rasa, Kualitas, dan Kekeluargaan. Kami ingin menjadi tempat
+                        makan favorit keluarga Anda di Manado.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mt-8">
+                        <div class="bg-white p-4 rounded-lg text-center shadow-sm">
+                            <span class="block text-3xl font-bold text-cinnamon-600 mb-1">2020</span>
+                            <span class="text-sm text-gray-600 font-medium">Tahun Berdiri</span>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg text-center shadow-sm">
+                            <span class="block text-3xl font-bold text-cinnamon-600 mb-1">1000+</span>
+                            <span class="text-sm text-gray-600 font-medium">Pelanggan Bahagia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10 lg:mt-0 relative">
+                    <div class="absolute -top-4 -left-4 w-24 h-24 bg-cinnamon-200 rounded-full z-0 opacity-50"></div>
+                    <img src="/asset/profile.jpg" alt="Suasana Xinnamon Cafe"
+                        class="relative z-10 rounded-2xl shadow-xl w-full h-96 object-cover border-4 border-white">
+                    <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-cinnamon-300 rounded-full z-0 opacity-50">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-serif font-bold text-gray-900">Menu Favorit</h2>
+                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Pilihan hidangan lezat yang disiapkan khusus untuk
+                    menemani harimu.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Item 1 -->
+                <div
+                    class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="h-56 overflow-hidden">
+                        <img src="/asset/menu 2.jpg" alt="Nasi Ikan Mujair"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 font-serif">Nasi Ikan Mujair</h3>
+                        <p class="mt-2 text-gray-600 text-sm h-12">Sajian ikan mujair goreng segar dengan nasi hangat.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center border-t border-gray-100 pt-4">
+                            <span class="text-cinnamon-700 font-bold text-lg">Rp 15.000</span>
+                            <button
+                                class="text-sm bg-cinnamon-50 text-cinnamon-700 px-4 py-2 rounded-full hover:bg-cinnamon-600 hover:text-white transition-colors font-medium">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div
+                    class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="h-56 overflow-hidden">
+                        <img src="/asset/menu 5.jpg" alt="Nasi Ayam Lalapan"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 font-serif">Nasi Ayam Lalapan</h3>
+                        <p class="mt-2 text-gray-600 text-sm h-12">Ayam goreng gurih sajian lengkap dengan lalapan
+                            segar.</p>
+                        <div class="mt-4 flex justify-between items-center border-t border-gray-100 pt-4">
+                            <span class="text-cinnamon-700 font-bold text-lg">Rp 22.000</span>
+                            <button
+                                class="text-sm bg-cinnamon-50 text-cinnamon-700 px-4 py-2 rounded-full hover:bg-cinnamon-600 hover:text-white transition-colors font-medium">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div
+                    class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="h-56 overflow-hidden">
+                        <img src="/asset/menu 6.jpg" alt="Pisang Stik Coklat Keju"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 font-serif">Pisang Stik Coklat Keju</h3>
+                        <p class="mt-2 text-gray-600 text-sm h-12">Camilan manis pisang stik dengan topping coklat dan
+                            keju.</p>
+                        <div class="mt-4 flex justify-between items-center border-t border-gray-100 pt-4">
+                            <span class="text-cinnamon-700 font-bold text-lg">Rp 17.000</span>
+                            <button
+                                class="text-sm bg-cinnamon-50 text-cinnamon-700 px-4 py-2 rounded-full hover:bg-cinnamon-600 hover:text-white transition-colors font-medium">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div
+                    class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="h-56 overflow-hidden">
+                        <img src="/asset/menu 7.jpg" alt="Goroho Stik"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 font-serif">Goroho Stik</h3>
+                        <p class="mt-2 text-gray-600 text-sm h-12">Stik pisang goroho khas Sulawesi yang renyah dan
+                            gurih.</p>
+                        <div class="mt-4 flex justify-between items-center border-t border-gray-100 pt-4">
+                            <span class="text-cinnamon-700 font-bold text-lg">Rp 12.000</span>
+                            <button
+                                class="text-sm bg-cinnamon-50 text-cinnamon-700 px-4 py-2 rounded-full hover:bg-cinnamon-600 hover:text-white transition-colors font-medium">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div
+                    class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 group">
+                    <div class="h-56 overflow-hidden">
+                        <img src="/asset/menu 8.jpg" alt="Nasi Ayam Bakar"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 font-serif">Nasi Ayam Bakar (Porsi Besar)</h3>
+                        <p class="mt-2 text-gray-600 text-sm h-12">Porsi besar ayam bakar dengan bumbu meresap sempurna.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center border-t border-gray-100 pt-4">
+                            <span class="text-cinnamon-700 font-bold text-lg">Rp 24.000</span>
+                            <button
+                                class="text-sm bg-cinnamon-50 text-cinnamon-700 px-4 py-2 rounded-full hover:bg-cinnamon-600 hover:text-white transition-colors font-medium">Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <!-- Additional simple list for more items -->
+                <div class="max-w-3xl mx-auto bg-cinnamon-50 rounded-xl p-8 border border-cinnamon-100">
+                    <h3 class="text-xl font-serif font-bold text-cinnamon-800 mb-6">Menu Lainnya</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+                        <div class="flex justify-between border-b border-cinnamon-200 pb-2">
+                            <span class="text-gray-800 font-medium">Nasi Goreng Kampung</span>
+                            <span class="text-cinnamon-700 font-bold">Rp 38.000</span>
+                        </div>
+                        <div class="flex justify-between border-b border-cinnamon-200 pb-2">
+                            <span class="text-gray-800 font-medium">Spaghetti Bolognese</span>
+                            <span class="text-cinnamon-700 font-bold">Rp 42.000</span>
+                        </div>
+                        <div class="flex justify-between border-b border-cinnamon-200 pb-2">
+                            <span class="text-gray-800 font-medium">Cappuccino</span>
+                            <span class="text-cinnamon-700 font-bold">Rp 28.000</span>
+                        </div>
+                        <div class="flex justify-between border-b border-cinnamon-200 pb-2">
+                            <span class="text-gray-800 font-medium">Ice Lemon Tea</span>
+                            <span class="text-cinnamon-700 font-bold">Rp 18.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Hours Section -->
+    <section id="location" class="py-16 bg-cinnamon-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-serif font-bold text-gray-900">Lokasi & Jam Operasional</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 bg-white rounded-2xl shadow-lg p-6 md:p-10">
+                <!-- Info -->
+                <div class="space-y-8">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <svg class="h-8 w-8 text-cinnamon-600" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-900">Alamat</h3>
+                            <p class="mt-2 text-gray-600 leading-relaxed">GV8Q+RC5, Buha, Kec. Mapanget,<br>Kota Manado,
+                                Sulawesi Utara, Indonesia.</p>
+                            <a href="https://maps.google.com/?q=XINNAMON+Cafe+Manado" target="_blank"
+                                class="inline-block mt-2 text-cinnamon-600 font-bold hover:text-cinnamon-800 hover:underline">Buka
+                                di Google Maps →</a>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <svg class="h-8 w-8 text-cinnamon-600" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <div class="ml-4 w-full">
+                            <h3 class="text-xl font-bold text-gray-900">Jam Operasional</h3>
+                            <div class="mt-2 bg-cinnamon-50 rounded-lg p-4">
+                                <div class="flex justify-between py-1 border-b border-cinnamon-200">
+                                    <span class="text-gray-700 font-medium">Senin - Sabtu</span>
+                                    <span class="text-gray-900 font-bold">09.00 - 22.00 WITA</span>
+                                </div>
+                                <div class="flex justify-between py-1 pt-2">
+                                    <span class="text-red-500 font-medium">Minggu</span>
+                                    <span class="text-red-500 font-bold">Tutup</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <svg class="h-8 w-8 text-cinnamon-600" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-900">Fasilitas</h3>
+                            <p class="mt-2 text-gray-600">Wi-Fi Gratis, Stop Kontak, Area Parkir Luas, Indoor AC.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map -->
+                <div class="h-96 w-full rounded-xl overflow-hidden shadow-inner bg-gray-200">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15953.535804595863!2d124.88726359384594!3d1.5303666249767253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3287a1d1d8c199bb%3A0x6b4c9b9b9b9b9b9b!2sXinnamon%20Cafe!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimonials" class="py-16 bg-cinnamon-800 text-white relative">
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h2 class="text-3xl font-serif font-bold mb-12">Apa Kata Mereka?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div
+                    class="bg-cinnamon-900/40 p-8 rounded-xl border border-cinnamon-700 backdrop-blur-sm shadow-xl hover:-translate-y-1 transition text-left">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400 text-xl tracking-widest">★★★★★</span>
+                    </div>
+                    <p class="italic mb-6 text-cinnamon-100 leading-relaxed">"Kopi terbaik di Manado! Tempatnya nyaman
+                        untuk kerja. Sangat recommended buat yang cari suasana tenang."</p>
+                    <div class="flex items-center">
+                        <div
+                            class="w-10 h-10 bg-cinnamon-600 rounded-full flex items-center justify-center font-bold text-white text-sm">
+                            AW</div>
+                        <div class="ml-3">
+                            <p class="font-bold font-serif text-white">Andi W.</p>
+                            <p class="text-xs text-cinnamon-300">Google Review</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- More reviews -->
+                <div
+                    class="bg-cinnamon-900/40 p-8 rounded-xl border border-cinnamon-700 backdrop-blur-sm shadow-xl hover:-translate-y-1 transition text-left">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400 text-xl tracking-widest">★★★★☆</span>
+                    </div>
+                    <p class="italic mb-6 text-cinnamon-100 leading-relaxed">"Pancake-nya luar biasa! Pelayanan cepat
+                        dan ramah, tapi kadang rame banget pas weekend."</p>
+                    <div class="flex items-center">
+                        <div
+                            class="w-10 h-10 bg-cinnamon-600 rounded-full flex items-center justify-center font-bold text-white text-sm">
+                            ST</div>
+                        <div class="ml-3">
+                            <p class="font-bold font-serif text-white">Sarah T.</p>
+                            <p class="text-xs text-cinnamon-300">Facebook Review</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-cinnamon-900/40 p-8 rounded-xl border border-cinnamon-700 backdrop-blur-sm shadow-xl hover:-translate-y-1 transition text-left">
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-400 text-xl tracking-widest">★★★★★</span>
+                    </div>
+                    <p class="italic mb-6 text-cinnamon-100 leading-relaxed">"Wi-Fi stabil, cocok untuk meeting atau
+                        kerja remote. Baristanya juga ramah banget!"</p>
+                    <div class="flex items-center">
+                        <div
+                            class="w-10 h-10 bg-cinnamon-600 rounded-full flex items-center justify-center font-bold text-white text-sm">
+                            MK</div>
+                        <div class="ml-3">
+                            <p class="font-bold font-serif text-white">Maya K.</p>
+                            <p class="text-xs text-cinnamon-300">Google Review</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <footer id="contact" class="bg-dark-charcoal text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <h2 class="text-3xl font-serif font-bold text-center mb-12">Siap Melayani Anda</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+                <!-- Contact Info -->
+                <div class="space-y-8">
+                    <div>
+                        <span class="font-serif text-3xl font-bold text-white tracking-wider block mb-4">XINNAMON</span>
+                        <p class="text-gray-400 text-lg leading-relaxed">
+                            Tempat makan dengan suasana cozy dan menu berkualitas di Manado. Hubungi kami untuk
+                            reservasi.
+                        </p>
+                    </div>
+                    <ul class="space-y-6">
+                        <li class="flex items-start">
+                            <div class="bg-gray-800 p-2 rounded-lg text-cinnamon-400">
+                                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                            </div>
+                            <div class="ml-4">
+                                <p class="text-sm text-gray-500 uppercase font-bold tracking-wider">Telepon / WhatsApp
+                                </p>
+                                <p class="text-xl font-bold mt-1">+62 821-8731-8880</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="bg-gray-800 p-2 rounded-lg text-cinnamon-400">
+                                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                            </div>
+                            <div class="ml-4">
+                                <p class="text-sm text-gray-500 uppercase font-bold tracking-wider">Alamat</p>
+                                <p class="text-lg mt-1">GV8Q+RC5, Manado</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="flex space-x-4 pt-4">
+                        <a href="#"
+                            class="bg-gray-800 p-3 rounded-full hover:bg-cinnamon-600 transition-colors text-white">Facebook</a>
+                        <a href="#"
+                            class="bg-gray-800 p-3 rounded-full hover:bg-cinnamon-600 transition-colors text-white">Instagram</a>
+                    </div>
+                </div>
+
+                <!-- Simple Form -->
+                <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700">
+                    <h3 class="text-xl font-bold mb-6 text-white">Kirim Pesan</h3>
+                    <form action="#" class="space-y-4">
+                        <input type="text" placeholder="Nama Anda"
+                            class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-cinnamon-500">
+                        <input type="email" placeholder="Email"
+                            class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-cinnamon-500">
+                        <textarea rows="3" placeholder="Pesan"
+                            class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-cinnamon-500"></textarea>
+                        <button type="submit"
+                            class="w-full bg-cinnamon-600 hover:bg-cinnamon-700 text-white font-bold py-3 rounded-lg transition-colors">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 py-8 text-center bg-black/20">
+            <p class="text-gray-500 text-sm">© 2026 XINNAMON Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
